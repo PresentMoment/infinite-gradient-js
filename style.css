@@ -1,0 +1,43 @@
+body {
+  background: rgb(0, 0, 0); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgb(255, 255, 255) 0%,
+    rgb(159, 159, 159) 25%,
+    rgb(91, 91, 91) 50%,
+    rgb(154, 154, 154) 75%,
+    rgb(255, 255, 255) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgb(255, 255, 255) 0%,
+    rgb(159, 159, 159) 25%,
+    rgb(91, 91, 91) 50%,
+    rgb(154, 154, 154) 75%,
+    rgb(255, 255, 255) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 0%,
+    rgb(159, 159, 159) 25%,
+    rgb(91, 91, 91) 50%,
+    rgb(154, 154, 154) 75%,
+    rgb(255, 255, 255) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: 100% 400vh;
+  background-repeat: repeat-y;
+}
+
+p {
+  opacity: 0;
+}
+.title {
+  position: fixed;
+  margin: 0 auto;
+  top: 30%;
+  left: 50%;
+  margin-left: -200px;
+  font-size: 6em;
+  color: rgb(159, 159, 159);
+  -webkit-text-stroke: 1px white;
+}
